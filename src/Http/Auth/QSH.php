@@ -128,9 +128,6 @@ class QSH
 
         $query = $this->buildQuery($params);
 
-        // Encode underscores.
-        $query = str_replace('_', '%20', $query);
-
         return $query;
     }
 
