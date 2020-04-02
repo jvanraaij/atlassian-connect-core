@@ -31,8 +31,6 @@ class DisabledRequest extends FormRequest
         return [
             'key' => 'required',
             'clientKey' => 'required',
-            'serverVersion' => 'required',
-            'pluginsVersion' => 'required',
             'baseUrl' => 'required',
             'productType' => 'required',
             'description' => 'required',

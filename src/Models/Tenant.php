@@ -15,9 +15,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  * @property string $oauth_client_token
  * @property string $public_key
  * @property string $shared_secret
- * @property string $server_version
  * @property string $base_url
- * @property string $plugin_version
  * @property string $product_type
  * @property string $description
  * @property string $event_type
@@ -44,8 +42,6 @@ class Tenant extends Model implements \Illuminate\Contracts\Auth\Authenticatable
         'public_key',
         'oauth_client_token',
         'shared_secret',
-        'server_version',
-        'plugin_version',
         'base_url',
         'product_type',
         'description',

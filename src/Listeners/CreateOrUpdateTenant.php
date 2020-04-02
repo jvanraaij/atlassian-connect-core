@@ -39,8 +39,6 @@ class CreateOrUpdateTenant
             'public_key' => $event->request->input('publicKey'),
             'oauth_client_token' => $event->request->input('oauthClientId'),
             'shared_secret' => $event->request->input('sharedSecret'),
-            'server_version' => $event->request->input('serverVersion'),
-            'plugin_version' => $event->request->input('pluginsVersion'),
             'base_url' => $event->request->input('baseUrl'),
             'product_type' => $event->request->input('productType'),
             'description' => $event->request->input('description'),

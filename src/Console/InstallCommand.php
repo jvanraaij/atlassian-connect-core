@@ -68,8 +68,6 @@ class InstallCommand extends Command
             'client_key' => 'f8e11216-24ba-344e-91b8-845af3d945f0',
             'public_key' => 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCK/XMT+GMfzH97nZD1Nj9riBgVZOO/vkJpBAltIEdPBigqHXuv7vG17QrTpzPZQ4ssrpD8RncnLGGevfEXbdNtx50+oUFMjQUde87uyOuBMa5LuhBu47++NEwQKXOC+uw+YJzLb564PDlZGp+OVcKuoDarC/zpw3LezQ2tEJB22QIDAQAB',
             'shared_secret' => 'vf7EKBf79AuaqBEthgiXIqEaEBsxYqndLFh/8VuSPeqE8flI6nJCCLRODOPwQpAXyasUm/f01/h7+diwqMdAYa',
-            'server_version' => '100058',
-            'plugin_version' => '1.3.175',
             'base_url' => 'https://test.atlassian.net',
             'product_type' => 'jira',
             'description' => 'Dummy tenant for local testing',

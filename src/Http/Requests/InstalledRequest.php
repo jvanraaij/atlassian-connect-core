@@ -33,8 +33,6 @@ class InstalledRequest extends FormRequest
             'clientKey' => 'required',
             'oauthClientId' => 'string',
             'sharedSecret' => 'required',
-            'serverVersion' => 'required',
-            'pluginsVersion' => 'required',
             'baseUrl' => 'required',
             'productType' => 'required',
             'description' => 'required',
